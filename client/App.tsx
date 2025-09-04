@@ -29,7 +29,7 @@ import GuildWarPanel from './components/GuildWarPanel';
 import { CauldronIcon, ScrollIcon, BodyIcon, SwordIcon, TreasureIcon, EnlightenmentIcon, GuildIcon, LeaderboardIcon, PvpIcon, DesktopIcon, MobileIcon, ChatIcon, ShopIcon, GuildWarIcon } from './components/Icons';
 
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://hongbang.onrender.com';
 const SYNC_INTERVAL_MS = 5000; 
 
 interface ExplorationStatus {
