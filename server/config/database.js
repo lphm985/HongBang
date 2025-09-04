@@ -3,9 +3,9 @@ const mariadb = require('mariadb');
 const pool = mariadb.createPool({
     host: 'localhost', 
     port: 3306,
-    user: 'root', 
-    password: 'Vhuu@2002',
-    database: 'tu_tien_db',
+    user: 'lphm985', 
+    password: 'Lphm123',
+    database: 'hong_bang',
     connectionLimit: 10,
     idleTimeout: 60000, 
     acquireTimeout: 60000,
